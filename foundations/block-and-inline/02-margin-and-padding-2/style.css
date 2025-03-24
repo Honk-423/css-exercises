@@ -6,12 +6,13 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  padding: 7px 10px 10px;
+  padding: 4px 10px 10px;
   margin: 16px auto;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 20px;
   padding: 5px 0px 5px 10px;
   margin-bottom: 10px;
 }
@@ -23,11 +24,13 @@ body {
 
 .button-container {
   background: #e3f4ff;
-  padding: 25px 0px 25px 8px;
+  padding: 8px 0px 20px 175px;
   margin-top: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding: 12px 25px;
 }
