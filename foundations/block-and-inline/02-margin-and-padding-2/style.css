@@ -33,9 +33,6 @@ button {
   border: 1px solid #eee;
   font-size: 15px;
   display: block;
-  padding: 10px 25px 10px 25px;
+  padding: 10px 25px;
   margin-left: -48px;
 }
-
-/* How the fuck am i supposed to center this button? */
-/* Negative margin on the button and display: block;, that's how.
