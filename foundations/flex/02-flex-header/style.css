@@ -25,6 +25,10 @@ ul {
   padding-top: 1px;
 }
 
+.right-links ul {
+  justify-content: flex-end;
+}
+
 .right-links {
   flex: 1;
   padding-bottom: 1px;
