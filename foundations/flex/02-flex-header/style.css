@@ -23,6 +23,8 @@ ul {
 }
 
 .left-links {
+  display: flex;
+  justify-content: flex-start;
   flex: 1;
   margin-left: auto;
 }
