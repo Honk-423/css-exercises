@@ -52,6 +52,10 @@ ul {
   list-style-type: none;
 }
 
+.left-side, .right-side {
+  margin: 0px 10px;
+}
+
 .left-side {
   display: flex;
 }
