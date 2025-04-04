@@ -22,7 +22,7 @@ img {
   display: flex;
 }
 
-.photo {
+.photos {
   display: flex;
   justify-content: space-evenly;
 }
