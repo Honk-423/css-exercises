@@ -1,3 +1,7 @@
+* {
+  border: 1px solid red;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -16,6 +20,11 @@ img {
 
 .all {
   display: flex;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* do not edit this footer */
