@@ -25,14 +25,18 @@ img {
 .photos {
   display: flex;
   justify-content: space-evenly;
+  gap: 50px;
 }
 
 .text-group {
   display: flex;
   justify-content: space-evenly;
+  gap: 25px;
 }
 
 .text {
+  height: 58px;
+  width: 154px;
   text-align: center;
   font-size: 16px;
 }
