@@ -27,6 +27,16 @@ img {
   justify-content: space-evenly;
 }
 
+.text-group {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text {
+  text-align: center;
+  font-size: 16px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
