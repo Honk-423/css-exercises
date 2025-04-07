@@ -1,3 +1,7 @@
+* {
+  border: 1px solid blue;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
@@ -75,6 +79,13 @@ button.cancel {
 }
 
 .grab {
-  padding: 10px 0px 0px 0px;
+  padding: 15px;
+}
+
+.text {
+  display: flex;
+  font-size: 16px;
+  width: 425px;
+  margin: 15px 0px;
 }
 /* Add padding to grab to make it look more like desired outcome png */
