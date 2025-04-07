@@ -71,6 +71,10 @@ button.cancel {
 
 .i-cb {
   display: flex;
-  align-items: baseline;
   gap: 20px;
 }
+
+.grab {
+  padding: 10px 0px 0px 0px;
+}
+/* Add padding to grab to make it look more like desired outcome png */
