@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
 .header  {
-  display: flex;
-  font-family: "Courier Prime" monospace;
+  font-family: monospace;
   background: papayawhip;
-  padding: 12px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
 }
 
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
+} 
+
 .logo {
+  font-family: "Orelega One", serif;
   font-size: 48px;
   font-weight: 900;
   color: tomato;
@@ -15,29 +28,16 @@
 
 ul {
   display: flex;
-  gap: 14px;
-  margin: 19px 14px 0px;
+  gap: 20px;
   padding: 0px;
+  margin: 0px;
   /* this removes the dots on the list items*/
   list-style-type: none;
 }
 
-.left-links {
-  display: flex;
-  justify-content: flex-start;
-  flex: 1;
-  margin-left: auto;
-}
-
-.right-links {
-  display: flex;
-  justify-content: flex-end;
-  flex: 1;
-  margin-right: auto;
-}
-
-a {
-  font-size: 22px;
+a {font-family: "Orelega One", serif;
+  font-size: 18px;
+  font-weight: 100px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
