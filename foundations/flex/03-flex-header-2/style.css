@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -44,7 +45,12 @@ a {
 }
 
 ul {
+  display: flex;
   padding: 0px;
   margin: 0px;
   list-style-type: none;
+}
+
+.lefts {
+  display: flex;
 }
