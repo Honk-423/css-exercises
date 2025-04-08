@@ -54,3 +54,9 @@ ul {
 .lefts {
   display: flex;
 }
+
+.rights {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
