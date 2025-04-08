@@ -9,9 +9,6 @@ body {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -47,21 +44,7 @@ a {
 }
 
 ul {
-  display: flex;
-  gap: 18px;
+  padding: 0px;
+  margin: 0px;
   list-style-type: none;
-}
-
-.left-side, .right-side {
-  margin: 0px 10px;
-}
-
-.left-side {
-  display: flex;
-}
-
-.right-side {
-  display: flex;
-  align-items: center;
-  gap: 18px;
 }
