@@ -1,7 +1,3 @@
-* {
-  border: 1px solid salmon;
-}
-
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -12,16 +8,19 @@ img {
 }
 
 .title {
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 900;
 }
 
-.all-text {
-  display: flex;
-}
-
 .text {
   width: 184px;
+}
+
+.images, .all-text {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* do not edit this footer */
