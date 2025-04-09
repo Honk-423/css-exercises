@@ -12,12 +12,13 @@ img {
 }
 
 .title {
+  margin: 10px 0px 40px;
   font-size: 36px;
   font-weight: 900;
 }
 
 .text {
-  width: 184px;
+  width: 200px;
 }
 
 
