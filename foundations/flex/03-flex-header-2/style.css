@@ -53,6 +53,7 @@ ul {
 
 .lefts {
   display: flex;
+  align-items: center;
 }
 
 .rights {
