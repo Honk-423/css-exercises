@@ -20,6 +20,12 @@ img {
   display: flex;
 }
 
+.info {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
