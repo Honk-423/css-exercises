@@ -12,6 +12,7 @@ img {
 }
 
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
 }
@@ -24,6 +25,11 @@ img {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+}
+
+.text {
+  text-align: center;
+  width: 200px;
 }
 
 /* do not edit this footer */
