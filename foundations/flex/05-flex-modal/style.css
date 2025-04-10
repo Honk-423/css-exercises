@@ -1,6 +1,7 @@
 * {
-  border: 1px solid blue;
+  border: 1px solid salmon;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
@@ -71,15 +72,16 @@ button.cancel {
   color: royalblue;
 }
 
-.header {
+.container {
   display: flex;
+  flex-flow: wrap;
 }
 
-.all {
-display: flex;
-flex-flow: wrap;}
+.header {
+ display: flex;
+ width: 266px;
+}
 
 .text {
-  display: flex;
-  flex-flow: column;
+  width: 414px;
 }
