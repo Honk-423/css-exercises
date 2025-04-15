@@ -25,12 +25,12 @@ input {
   width: 400px;
 }
 
-.header {
+.header, .footer, .content {
   display: flex;
 }
 
-.footer {
-  display: flex;
+.content {
+  flex-flow: column;
 }
 
 ul {
