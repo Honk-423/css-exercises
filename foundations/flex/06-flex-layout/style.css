@@ -30,7 +30,10 @@ input {
 }
 
 .content {
+  height: 90vh;
   flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
