@@ -31,7 +31,7 @@ input {
 }
 
 .content {
-  height: 96vh;
+  height: 92vh;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -40,10 +40,11 @@ input {
 ul {
   display: flex;
   list-style-type: none;
-  margin: 0px;
+  margin: 10px;
   padding: 0px;
 }
 
 a {
   text-decoration: none;
+  margin: 10px;
 }
