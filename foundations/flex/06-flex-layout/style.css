@@ -28,13 +28,17 @@ input {
 .header, .footer, .content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .content {
   height: 92vh;
   flex-flow: column;
   justify-content: center;
-  align-items: center;
+}
+
+.footer {
+  background: #eee;
 }
 
 ul {
