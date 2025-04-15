@@ -31,7 +31,6 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
-  margin-right: 20px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -77,6 +76,7 @@ button.cancel {
 .container {
   display: flex;
   flex-flow: wrap;
+  padding: 0px 20px;
 }
 
 .header {
