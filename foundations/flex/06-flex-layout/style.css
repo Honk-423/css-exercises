@@ -40,6 +40,8 @@ input {
 ul {
   display: flex;
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
