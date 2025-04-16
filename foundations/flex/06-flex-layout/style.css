@@ -38,7 +38,7 @@ input {
 
 .content {
   flex-flow: column;
-  justify-content: center;
+  margin: auto;
 }
 
 .footer {
