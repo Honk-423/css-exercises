@@ -46,6 +46,7 @@ input {
 .footer {
   background: #eee;
   margin-top: auto;
+  padding: 10px;
 }
 
 ul {
