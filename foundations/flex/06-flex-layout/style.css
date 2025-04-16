@@ -32,7 +32,6 @@ input {
 }
 
 .content {
-  height: 92vh;
   flex-flow: column;
   justify-content: center;
 }
@@ -44,7 +43,6 @@ input {
 ul {
   display: flex;
   list-style-type: none;
-  margin: 10px;
   padding: 0px;
 }
 
@@ -52,3 +50,5 @@ a {
   text-decoration: none;
   margin: 10px;
 }
+
+/* JC center on ul may work but margins on ul seem to be effecting that */
