@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+  display: flex;
+  flex-flow: column;
   height: 100vh;
   margin: 0;
   overflow: hidden;
@@ -42,6 +44,7 @@ input {
 
 .footer {
   justify-content: space-between;
+  margin-top: auto;
   background: #eee;
 }
 
@@ -57,3 +60,4 @@ a {
 }
 
 /* JC center on ul may work but margins on ul seem to be effecting that */
+/* Align items in all flexboxes vertically to make sure they're even */
