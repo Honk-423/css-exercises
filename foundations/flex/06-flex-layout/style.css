@@ -29,11 +29,10 @@ input {
 
 .header, .footer, .content {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
-.header {
+.header, .footer {
   justify-content: space-between;
 }
 
@@ -43,9 +42,8 @@ input {
 }
 
 .footer {
-  justify-content: space-between;
-  margin-top: auto;
   background: #eee;
+  margin-top: auto;
 }
 
 ul {
