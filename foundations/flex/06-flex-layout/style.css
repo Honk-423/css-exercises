@@ -27,8 +27,12 @@ input {
 
 .header, .footer, .content {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+}
+
+.header {
+  justify-content: space-between;
 }
 
 .content {
@@ -37,6 +41,7 @@ input {
 }
 
 .footer {
+  justify-content: space-between;
   background: #eee;
 }
 
