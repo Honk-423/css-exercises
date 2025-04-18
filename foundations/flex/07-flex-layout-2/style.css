@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  flex-direction: column;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -36,10 +38,16 @@ body {
   border-radius: 4px;
   /* Needs to be laid out in multiple rows with flex-wrap.
   There should be equal horizontal margin/gap on each card.
- There should be equal vertical margin/gap on each card.
+  There should be equal vertical margin/gap on each card.
   All cards should be the same size. */
 }
 
-/* Anchors need to be white.
-Their underlines needs to be removed.
-They also need top and bottom margin or gap. */
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  /* Anchors need to be white.
+  They also need top and bottom margin or gap. */
+}
