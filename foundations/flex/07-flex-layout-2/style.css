@@ -32,7 +32,15 @@ body {
   /* Force this to the left side somehow. */
 }
 
+.all-cards {
+  display: flex;
+  flex-flow: wrap;
+  /* width: 900px; */
+}
+
 .card {
+  height: 300px;
+  width: 300px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
