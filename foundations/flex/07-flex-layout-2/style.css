@@ -25,6 +25,10 @@ body {
   Adding flex to the cards might be able force the footer to the bottom of the page like in the last lesson. */
 }
 
+.container {
+  display: flex;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
