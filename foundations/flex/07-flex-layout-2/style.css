@@ -39,9 +39,10 @@ body {
 .all-cards {
   display: flex;
   flex-flow: wrap;
-  gap: 38px;
+  /* gap: 38px; */
   justify-content: flex-end;
-  margin-right: 170px;
+  margin: 30px 145px 0px 0px
+  /* margin-right: 170px; */
 }
 
 .card {
@@ -49,6 +50,7 @@ body {
   width: 382px;
   padding: 25px;
   border: 1px solid #eee;
+  margin: 20px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   /* Needs to be laid out in multiple rows with flex-wrap.
