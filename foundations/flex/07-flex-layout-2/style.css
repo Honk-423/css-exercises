@@ -10,8 +10,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 900;
-  height: 72px;
- /*  padding: 18px; */
+  /* height: 72px; */
+  padding: 18px;
   background: darkmagenta;
   color: white;
   /* The text needs to be much bigger.
