@@ -30,7 +30,7 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  width: 600px;
   background: royalblue;
   box-sizing: border-box;
   /* Force this to the left side somehow. */
@@ -41,7 +41,7 @@ body {
   flex-flow: wrap;
   gap: 38px;
   justify-content: flex-end;
-  margin-right: 186px;
+  margin-right: 170px;
 }
 
 .card {
@@ -57,12 +57,18 @@ body {
   All cards should be the same size. */
 }
 
+ul {
+  padding: 0px 15px;
+}
+
 li {
   list-style-type: none;
+  margin: 6px 0px
 }
 
 a {
   text-decoration: none;
+  color: white;
   /* Anchors need to be white.
   They also need top and bottom margin or gap. */
 }
