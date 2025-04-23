@@ -21,7 +21,7 @@ body {
 
 .right-links {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .profile-image {
@@ -54,5 +54,6 @@ a {
 }
 
 ul {
+  /* display: flex; */
   list-style-type: none;
 }
