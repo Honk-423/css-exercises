@@ -20,8 +20,11 @@ body {
 }
 
 .right-links {
-  display: flex;
-  align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    
 }
 
 .profile-image {
