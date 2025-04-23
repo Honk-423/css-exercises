@@ -13,6 +13,7 @@
 }
 
 ul {
+  display: flex;
   padding: 0px;
   margin: 0px;
   /* this removes the dots on the list items*/
@@ -20,6 +21,7 @@ ul {
 }
 
 a {
+  margin: 8px;
   font-size: 22px;
   background: white;
   padding: 8px;
