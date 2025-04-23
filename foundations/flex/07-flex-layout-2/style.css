@@ -78,6 +78,7 @@ li {
 }
 
 a {
+  font-size: 20px;
   text-decoration: none;
   color: white;
   /* Anchors need to be white.
