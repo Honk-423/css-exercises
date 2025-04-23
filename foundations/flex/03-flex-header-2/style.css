@@ -10,10 +10,18 @@ body {
 
 .header {
   display: flex;
-  padding: 10px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.left-links {
+  display: flex;
+}
+
+.right-links {
+  display: flex;
+  /* align-items: center; */
 }
 
 .profile-image {
@@ -46,19 +54,5 @@ a {
 }
 
 ul {
-  display: flex;
-  gap: 20px;
-  padding: 0px;
-  margin: 0px;
   list-style-type: none;
-}
-
-.lefts, .rights {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.rights {
-  margin-left: auto;
 }
