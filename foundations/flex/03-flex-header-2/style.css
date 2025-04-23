@@ -55,5 +55,6 @@ a {
 
 ul {
   display: flex;
+  padding: 0px;
   list-style-type: none;
 }
