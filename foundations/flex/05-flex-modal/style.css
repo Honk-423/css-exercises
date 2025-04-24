@@ -81,6 +81,7 @@ button.continue {
 button.cancel {
   background: white;
   border: 1px solid #ddd;
+  margin: 0px 5px;
   color: royalblue;
 }
 
