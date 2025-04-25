@@ -30,7 +30,6 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  flex: 1;
 }
 
 .content {
@@ -44,8 +43,9 @@ input {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  flex: 1;
+  align-items: center;
+  height: 54px;
+  background: #eee;
 }
 
 ul {
