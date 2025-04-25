@@ -29,6 +29,16 @@ input {
 
 .header {
   display: flex;
+  /* justify-content: space-between;
+  flex: 1; */
+}
+
+.content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1; */
 }
 
 .footer {
@@ -40,10 +50,11 @@ input {
 ul {
   display: flex;
   list-style-type: none;
-  padding: 0px;
+  padding: 18px 10px;
   margin: 0px;
 }
 
 a {
   text-decoration: none;
+  padding: 6px;
 }
