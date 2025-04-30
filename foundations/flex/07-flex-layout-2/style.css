@@ -7,9 +7,14 @@ body {
 }
 
 .header {
+  display: flex;   
+  align-items: center;
+  font-size: 30px;
+  font-weight: 900;
   height: 72px;
   background: darkmagenta;
   color: white;
+  padding-left: 12px;
 }
 
 .footer {
@@ -19,7 +24,6 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  
 }
 
 .container {
